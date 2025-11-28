@@ -144,12 +144,7 @@ const Home: React.FC<HomeProps> = ({ onNavigateToGame }) => {
             {/* HERO */}
             <section className="min-h-screen flex flex-col justify-center w-[88%] max-w-[1600px] mx-auto pt-20 relative">
 
-                {/* top-left hero image (md+ only) */}
-                <img
-                    src="/MixMaster/carroty.jpg"
-                    alt="Carroty Music"
-                    className="hidden md:block absolute top-6 left-6 w-40 h-40 object-cover rounded-xl border border-white/10 shadow-2xl pointer-events-auto"
-                />
+
 
                 {/* GAME TEASER */}
                 <div
