@@ -91,7 +91,7 @@ const AudioPlayer: React.FC = () => {
             {/* Hidden Audio Element - pointing to root music1.mp3 */}
             <audio
                 ref={audioRef}
-                src="/music1.mp3"
+                src="/MixMaster/music1.mp3"
                 onTimeUpdate={handleTimeUpdate}
                 onEnded={handleEnded}
             />
@@ -146,7 +146,7 @@ const Home: React.FC<HomeProps> = ({ onNavigateToGame }) => {
 
                 {/* top-left hero image (md+ only) */}
                 <img
-                    src="/carroty.jpg"
+                    src="/MixMaster/carroty.jpg"
                     alt="Carroty Music"
                     className="hidden md:block absolute top-6 left-6 w-40 h-40 object-cover rounded-xl border border-white/10 shadow-2xl pointer-events-auto"
                 />
