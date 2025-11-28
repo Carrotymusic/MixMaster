@@ -254,9 +254,9 @@ const Home: React.FC<HomeProps> = ({ onNavigateToGame }) => {
 
             {/* ORDER CTA */}
             <section className="w-[88%] max-w-[1600px] mx-auto">
-                <div className="my-20 p-16 border border-white/10 text-center bg-gradient-to-b from-white/1 to-white/5 rounded-lg">
-                    <h2 className="text-4xl md:text-5xl font-syne font-extrabold mb-6">GOTOWY NA BRZMIENIE <span className="text-carroty">PRO</span>?</h2>
-                    <p className="text-[#aaa] max-w-xl mx-auto mb-10 text-lg">
+                <div className="my-10 md:my-20 p-6 md:p-16 border border-white/10 text-center bg-gradient-to-b from-white/1 to-white/5 rounded-lg">
+                    <h2 className="text-3xl md:text-5xl font-syne font-extrabold mb-4 md:mb-6 leading-tight">GOTOWY NA BRZMIENIE <span className="text-carroty">PRO</span>?</h2>
+                    <p className="text-[#aaa] max-w-xl mx-auto mb-8 md:mb-10 text-sm md:text-lg">
                         Zamów bezpośrednio przez Fiverr, aby skorzystać z bezpiecznych płatności i gwarantowanych terminów.
                     </p>
                     <a
@@ -303,8 +303,8 @@ const Home: React.FC<HomeProps> = ({ onNavigateToGame }) => {
             {/* CONTACT */}
             <section id="contact" className="py-24 text-center">
                 <div className="w-[88%] max-w-[1600px] mx-auto">
-                    <p className="text-sm text-[#666] uppercase tracking-[2px] mb-5">ROZPOCZNIJ PROJEKT</p>
-                    <h2 className="text-4xl md:text-6xl font-syne font-extrabold mb-12">NAPISZ WIADOMOŚĆ</h2>
+                    <p className="text-xs md:text-sm text-[#666] uppercase tracking-[2px] mb-3 md:mb-5">ROZPOCZNIJ PROJEKT</p>
+                    <h2 className="text-3xl md:text-6xl font-syne font-extrabold mb-8 md:mb-12">NAPISZ WIADOMOŚĆ</h2>
 
                     <ContactForm />
 
