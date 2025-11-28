@@ -28,7 +28,7 @@ const App: React.FC = () => {
             alt="Profile"
             className="w-12 h-12 object-cover grayscale rounded-full border border-white/20 transition-transform duration-300 group-hover:scale-110 group-hover:grayscale-0 group-hover:border-carroty"
           />
-          <div className="font-syne font-bold text-2xl tracking-tighter">
+          <div className="font-syne font-bold text-2xl tracking-tighter hidden md:block">
             CARROTY<span className="text-carroty">.</span>
           </div>
         </div>
